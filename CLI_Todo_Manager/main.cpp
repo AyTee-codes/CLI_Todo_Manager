@@ -75,9 +75,22 @@ int main(){
                 }
             }
             
-        case 4:
-            cout<<"Deleting Task";
-            break;
+        case 4: {
+            int deleteID;
+
+            cout<<"Enter task ID to delete: ";
+            cin >> deleteID;
+            bool found = false;
+            for (int i =0; i< tasks.size(); i++){
+                if(tasks[i].id == deleteID){
+                    tasks.erase(tasks.begin() + i);
+                    found = true;
+                    cout<<"Task deleted successfully";
+                    break;
+                }
+            }
+            
+        }
         case 5:
             cout<<"Exited.";
             break;
