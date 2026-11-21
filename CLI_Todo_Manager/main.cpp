@@ -73,6 +73,7 @@ int main(){
             if(found == false){
                     cout<<"Task not found: ";
                 }
+                break;
             }
             
         case 4: {
@@ -89,7 +90,10 @@ int main(){
                     break;
                 }
             }
-            
+            if( found  == false) {
+                cout<<"Task not found!";
+            }
+            break;
         }
         case 5:
             cout<<"Exited.";
