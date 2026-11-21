@@ -109,6 +109,7 @@ Planned features for future versions:
 **Status:** Core functionality implemented. Future improvements planned.
 
 ## Author
+Arnesh Tamang
 
 Developed as part of my journey learning C++ and software development.
 
